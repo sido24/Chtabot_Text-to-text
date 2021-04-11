@@ -1,0 +1,207 @@
+{"intents": [
+		{"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "Fees",
+         "patterns": ["Fees", "What is the fee of KJSCE", "Can you tell me fees"],
+         "responses": ["2,75,000 Rs"],
+         "context": [""]
+        },
+        {"tag": "principal",
+         "patterns": ["principal", "principal of kjsce", "who is principal"],
+         "responses": ["shubha pandit", "s.pandit", "shubha pandit mam"],
+         "context": [""]
+        },
+	{"tag": "Department",
+         "patterns": ["can you tell me which department do KJSCE have?", "can you tell me which department do KJ somaiya have?","which department"],
+         "responses": ["Bachelor of Technology Computer Engineering, Bachelor of Technology Electronics Engineering,Bachelor of Technology Electronics & Telecommunication Engineering, Bachelor of Technology Information Technology, Bachelor of Technology Mechanical Engineering "],
+         "context": [""]
+        },
+	{"tag": "Admission",
+         "patterns": ["How to become a Somaiya student", "How to apply in somaiya", "Procedure for admission"],
+         "responses": ["Visit somaiya website"],
+         "context": [""]
+        },
+	{"tag": "Test",
+         "patterns": ["About Somaiya Entrance Test", "tell me About Somaiya Entrance Test", "information About Somaiya Entrance Test"],
+         "responses": ["Somaiya Entrance Test for Engineering (SET-E) is the entrance test for admission to First Year B.Tech engineering programs"],
+         "context": [""]
+        },
+	{"tag": "Eligibility",
+         "patterns": ["Eligibility of the test", "Eligibility criteria", "test Eligibility","what is eligibility of test"],
+         "responses": ["The candidates who have passed class 12th / equivalent qualifying examination can appear for SET-E 2021 examination."],
+         "context": [""]
+        },
+	{"tag": "Syllabus for test",
+         "patterns": ["Syllabus for SET - E ", "What is syllabus for test", "syllabus"],
+         "responses": ["Mathematics, Physics, Chemistry (For more information visit website)"],
+         "context": [""]
+        },
+	{"tag": "Pattern of test",
+         "patterns": ["What is the patteren of test? ", "test pattern", "what is duration and marks of test?"],
+         "responses": ["Total marks: 100   Total Duration: 90 minutes (For more information visit website)"],
+         "context": [""]
+        },
+	{"tag": "Test fees",
+         "patterns": [" what is the fee of SET-E test ", "Enterence test fee", "SET-E test fee"],
+         "responses": ["INR 2000 (Not refundable)"],
+         "context": [""]
+        },
+	{"tag": "Post Graduate",
+         "patterns": [" Post graduate admission? ", "How to apply for M-TECH?"],
+         "responses": ["It based on GATE examination or Based on somaiya entereance test"],
+         "context": [""]
+        },
+	{"tag": "M-Tech fees",
+         "patterns": [" what is the fee of M-Tech ", "M-tech fee", "Post graduation fees?"],
+         "responses": ["INR 2,80,000"],
+         "context": [""]
+        },
+	{"tag": "M-tech Courses",
+         "patterns": [" KJSCE M-Tech offered courses? ", "What are the M-Tech courses?"],
+         "responses": ["Please visit website (https://kjsce.somaiya.edu/en/admission/mtech) "],
+         "context": [""]
+        },
+	{"tag": "Post Graduate test",
+         "patterns": [" Post graduate enterance test? ", "tell me about Post Graduate test?"],
+         "responses": ["SPG-E will be conducted Online"],
+         "context": [""]
+        },
+	{"tag": "Post Graduate test ",
+         "patterns": [" Post graduate enterance test pattern? ", "what is the pattern of post graduate test?"],
+         "responses": ["1. General Aptitude 2. Program-wise SPG-Syllabus 3. Program-wise SPG-Syllabus "],
+         "context": [""]
+        },
+	{"tag": "Post Graduate test Syllabus",
+         "patterns": [" Post graduate enterance test Syllabus? ", "tell me about Post Graduate test syllabus?"],
+         "responses": ["Please Visit KJSCE Website for syllabus of test"],
+         "context": [""]
+        },
+	{"tag": "Schedule",
+         "patterns": [" What is the schedule of SPG-E or SET-E test? ","schedule of SPG-E or SET-E test?","SPG-E test dates?","SET-E test dates","Test dates?"],
+         "responses": ["Please Visit KJSCE Website for Schedule of Events and Dates"],
+         "context": [""]
+        },
+	{"tag": "  शुभकामना  ",
+         "patterns": [" नमस्ते ", " क्या हाल है ", " क्या वह कोई हैं? ", " शुभ दिन "],
+         "responses": [" हैलो, पूछने के लिए धन्यवाद ", " तुमसे दुबारा मिलकर अच्छा लगा ", " हाय, मैं कैसे मदद कर सकता हूँ? "],
+         "context": [""]
+        },
+	{"tag": " अलविदा ",
+         "patterns": [" अलविदा ", " बाद में मिलते है ", " आपसे चैट करके अच्छा लगा, अलविदा ", " अगली बार तक "],
+         "responses": [" फिर मिलते हैं!", " आपका दिन शुभ हो ", " अलविदा! जल्द ही फिर से लौटेंगे! "],
+         "context": [""]
+        },
+	{"tag": " धन्यवाद ",
+         "patterns": [" धन्यवाद ", " वह मददगार है ", " बहुत अच्छे, धन्यवाद ", " मेरी सहायता करने के लिए धन्यवाद "],
+         "responses": [" मदद करने में खुशी होगी! ", " किसी भी समय! ", " मेरा सौभाग्य "],
+         "context": [""]
+        },
+	{"tag": " कोई जवाब नहीं ",
+         "patterns": [],
+         "responses": [" क्षमा करें, आप समझ नहीं सकते ", " कृपया मुझे और जानकारी दें ", " पक्का नहीं मै समझ गया "],
+         "context": [""]
+        },
+	{"tag": " फीस ",
+         "patterns": [" फीस ", " KJSCE का फीस क्या है? ", " क्या आप मुझे फीस बता सकते हैं? "],
+         "responses": ["२,७५,००० रु"],
+         "context": [""]
+        },
+	{"tag": " प्रधान अध्यापक ",
+         "patterns": [" प्रधान अध्यापक ", " KJSCE के प्रमुख ", " कौन प्रधान है? "],
+         "responses": [" डॉ। शुभा पंडित ", " डॉ। पंडित ", " डॉ शुभा पंडित मैम "],
+         "context": [""]
+        },
+	{"tag": " विभाग ",
+         "patterns": [" क्या आप मुझे बता सकते हैं कि KJSCE के पास कौन सा विभाग है? ", " क्या आप बता सकते हैं कि केजे सोमैया के पास कौन सा विभाग है? "," कौनसा विभाग? "],
+         "responses": [" 1. बैचलर ऑफ़ टेक्नोलॉजी कंप्यूटर इंजीनियरिंग, 2. बैचलर ऑफ़ टेक्नोलॉजी इलेक्ट्रॉनिक्स इंजीनियरिंग,3.  बैचलर ऑफ़ टेक्नोलॉजी इलेक्ट्रॉनिक्स एंड टेलीकम्युनिकेशन इंजीनियरिंग, 4. बैचलर ऑफ़ टेक्नोलॉजी इन्फोर्मेशन टेक्नोलॉजी, 5. बैचलर ऑफ़ टेक्नोलॉजी इलेक्ट्रॉनिक्स इंजीनियरिंग "],
+         "context": [""]
+        },
+	{"tag": " प्रवेश ",
+         "patterns": [" सोमैया छात्र कैसे बने? ", " सोमैया में आवेदन कैसे करें? ", " प्रवेश के लिए प्रक्रिया "],
+         "responses": ["सोमैया वेबसाइट पर जाएं "],
+         "context": [""]
+        },
+	{"tag": " परीक्षा ",
+         "patterns": [" सोमैया प्रवेश परीक्षा के बारे में ", " मुझे सोमैया प्रवेश परीक्षा के बारे में बताएं ", " जानकारी सोमैया प्रवेश परीक्षा के बारे में "],
+         "responses": [" इंजीनियरिंग के लिए सोमैया प्रवेश परीक्षा (सेट - ई) प्रथम वर्ष के बी. टेक इंजीनियरिंग कार्यक्रमों में प्रवेश के लिए प्रवेश परीक्षा है "],
+         "context": [""]
+        },
+	{"tag": " पात्रता ",
+         "patterns": [" परीक्षण की पात्रता ", " पात्रता मापदंड ", " योग्यता का परीक्षण करें "," परीक्षण की पात्रता क्या है "],
+         "responses": [" जिन उम्मीदवारों ने कक्षा १२ वीं / समकक्ष योग्यता परीक्षा उत्तीर्ण की है, वे सेट - ई २०२१ परीक्षा के लिए उपस्थित हो सकते हैं। "],
+         "context": [""]
+        },
+	{"tag": " परीक्षण के लिए पाठ्यक्रम ",
+         "patterns": [" सेट - ई के लिए पाठ्यक्रम ", " परीक्षण के लिए पाठ्यक्रम क्या है ", " पाठ्यक्रम "],
+         "responses": [" गणित, भौतिकी, रसायन विज्ञान (अधिक जानकारी के लिए वेबसाइट देखें) "],
+         "context": [""]
+        },
+	{"tag": " परीक्षण का पैटर्न ",
+         "patterns": [" परीक्षण का पैटरन क्या है? ", " परीक्षण पैटर्न ", " अवधि और परीक्षण के निशान क्या है? "],
+         "responses": [" कुल अंक: १०० कुल अवधि: ९०मिनट (अधिक जानकारी के लिए वेबसाइट देखें)"],
+         "context": [""]
+        },
+	{"tag": " परीक्षण फीस ",
+         "patterns": [" सेट – ई टेस्ट की फीस क्या है ", " मनोरंजन परीक्षण शुल्क ", " सेट – ई परीक्षण शुल्क "],
+         "responses": ["२००० रु  (वापसी योग्य नहीं है)"],
+         "context": [""]
+        },
+	{"tag": " पोस्ट ग्रेजुएट ",
+         "patterns": [" पोस्ट ग्रेजुएट में दाखिला? ", " एम-टेक के लिए आवेदन कैसे करें? "],
+         "responses": [" यह गेट परीक्षा के आधार पर या सोमैया एंटरटेन परीक्षा के आधार पर है "],
+         "context": [""]
+        },
+	{"tag": " एम-टेक फीस ",
+         "patterns": [" एम-टेक की फीस क्या है? ", " एम-टेक फीस ", " पोस्ट ग्रेजुएशन फीस? "],
+         "responses": ["२, ८०,००० रु "],
+         "context": [""]
+        },
+	{"tag": " एम-टेक पाठ्यक्रम ",
+         "patterns": [" KJSCE एम-टेक पाठ्यक्रमों की पेशकश की? ", " एम-टेक पाठ्यक्रम क्या हैं? "],
+         "responses": [" वेबसाइट (https://kjsce.somaiya.edu/en/admission/mtech) पर जाएं "],
+         "context": [""]
+        },
+	{"tag": " पोस्ट ग्रेजुएट टेस्ट ",
+         "patterns": [" पोस्ट ग्रेजुएट एंट्रेंस टेस्ट? ", " पोस्ट ग्रेजुएट टेस्ट के बारे में बताएं? "],
+         "responses": [" एसपीजी-ई का संचालन ऑनलाइन किया जाएगा "],
+         "context": [""]
+        },
+	{"tag": " पोस्ट ग्रेजुएट टेस्ट ",
+         "patterns": [" पोस्ट ग्रेजुएट एंट्रेंस टेस्ट पैटर्न? ", " पोस्ट ग्रेजुएट टेस्ट का पैटर्न क्या है? "],
+         "responses": [" १.सामान्य योग्यता २.प्रोग्राम-वार एसपीजी-सिलेबस ३.प्रोग्राम-वार एसपीजी-सिलेबस "],
+         "context": [""]
+        },
+	{"tag": " पोस्ट ग्रेजुएट टेस्ट सिलेबस ",
+         "patterns": [" पोस्ट ग्रेजुएट एंट्रेंस टेस्ट सिलेबस? ", " पोस्ट ग्रेजुएट टेस्ट सिलेबस के बारे में बताएं? "],
+         "responses": [" परीक्षा के पाठ्यक्रम के लिए कृपया KJSCE वेबसाइट पर जाएं "],
+         "context": [""]
+        },
+	{"tag": " अनुसूची ",
+         "patterns": [" एसपीजी-ई या एसईटी-ई टेस्ट का शेड्यूल क्या है? "," एसपीजी-ई या एसईटी-ई परीक्षण की अनुसूची? ", " एसपीजी-ई परीक्षण की तारीखें? "," सेट-ई टेस्ट की तारीखें? ", " टेस्ट की तारीखें? "],
+         "responses": [" कृपया घटनाओं और तिथियों की अनुसूची के लिए KJSCE वेबसाइट पर जाएं "],
+         "context": [""]
+        }
+
+
+
+	
+   ]
+}

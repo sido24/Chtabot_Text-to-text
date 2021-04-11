@@ -1,0 +1,9 @@
+train model 
+step 1: open anaconda prompt
+step 2: type cd Chatbot
+step 3: (update) intents.json file
+step 4: python train_chatbot.py
+
+test
+step 1: python chatgui.py
+ 
